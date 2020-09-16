@@ -18,4 +18,5 @@ end
 def printer(people)
   batch_badge_creator(people).each do [badge]
     puts badge
+  end
 end
