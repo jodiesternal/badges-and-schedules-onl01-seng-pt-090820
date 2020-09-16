@@ -14,3 +14,5 @@ def assign_rooms(people)
 
   end
 end
+
+def
