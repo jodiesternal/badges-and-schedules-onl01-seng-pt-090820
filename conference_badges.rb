@@ -1,13 +1,10 @@
-require 'pry'
-
 def badge_maker(name)
     "Hello, my name is #{name}."
 end
 
 def batch_badge_creator(people)
-    badge_names = []
-    people.each do |person|
-      badge_names << batch_maker(person)
+    people.map do |person|
+      batch_maker(person)
     end
     badge_names
 end
