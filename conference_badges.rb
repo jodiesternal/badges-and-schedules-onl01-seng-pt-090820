@@ -10,7 +10,7 @@ end
 
 def assign_rooms(people)
     people.each_with_index.map do |person, index|
-      "Hello, #{person}! You'll be assigned to room #{index}!"
+      "Hello, #{person}! You'll be assigned to room #{index + 1}!"
 
   end
   new_arr
