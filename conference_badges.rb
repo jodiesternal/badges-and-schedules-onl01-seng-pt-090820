@@ -6,7 +6,6 @@ def batch_badge_creator(people)
     people.map do |person|
       batch_maker(person)
     end
-    badge_names
 end
 
 # def assign_rooms(speakers)
