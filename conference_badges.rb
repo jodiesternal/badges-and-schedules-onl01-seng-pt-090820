@@ -9,9 +9,9 @@ def batch_badge_creator(people)
 end
 
 def assign_rooms(people)
-    new_arr = []
-    speakers.each_with_index |name, index|
-    new_arr << "Hello, #{name}! You'll be assinged to room #{index + 1}!"
+    people.each_with_index do |person, index|
+      "Hello, #{person}!" You'll 
+
   end
   new_arr
 end
