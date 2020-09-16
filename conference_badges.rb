@@ -4,7 +4,7 @@ end
 
 def batch_badge_creator(people)
     people.map do |person|
-      batch_maker(person)
+      batch_maker (person)
     end
 end
 
